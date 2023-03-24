@@ -1,8 +1,16 @@
-### This .py file you want to run should have the JSON data in the same location
+### 1. This .py file you want to run should have the JSON data in the same location
+### 2. Change the name of your json file or change the name here 
+```py
+# Load JSON data from file
+with open('example.json', 'r') as f: 
+    data = json.load(f)
+```
+- example.json to your_jsonfilename.json
 
-### Small Guide
 
+#### Small Guide
 
+**********
 1. Install Graphviz: You can install Graphviz by following the instructions on their website (https://graphviz.org/download/).
 2. Install the Graphviz Python package: Open your terminal or command prompt and type `pip install graphviz` to install the Graphviz Python package.
 3. Write a Python script: In your IDE or Visual Studio Code, create a new Python file and write a script that converts your JSON data into a tree image using Graphviz. 
